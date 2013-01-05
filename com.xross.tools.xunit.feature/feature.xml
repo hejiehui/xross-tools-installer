@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.xross.toolst.feature"
+      label="Xross tools"
+      version="1.0.0.qualifier"
+      provider-name="he, jiehui">
+
+   <description>
+      Include editor and runtime for decision tree and xross unit.
+Xross unit can build system by flow diagram.
+Decision tree can model complex logic by a decision tree diagram.
+   </description>
+
+   <copyright>
+      Created by He, Jiehe(Jerry He)
+For improvement e-mail to he_jiehui@yahoo.com.cn
+   </copyright>
+
+   <license>
+      For free use. 
+Author: Jerry He
+e-mail: he_jiehui@yahoo.com.cn
+   </license>
+
+   <plugin
+         id="com.xross.tools.xunit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xross.tools.xunit.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xross.tools.xdecision"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xross.tools.xdecision.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
