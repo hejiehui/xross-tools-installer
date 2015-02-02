@@ -6,9 +6,11 @@
       provider-name="he, jiehui">
 
    <description>
-      Include editor and runtime for decision tree and xross unit.
-Xross unit can build system by flow diagram.
-Decision tree can model complex logic by a decision tree diagram.
+      Include editor and runtime for Xross Decision Tree, Xross Unit and Xross State.
+
+Xross Decision Tree can model complex logic by a decision tree diagram.
+Xross Unit can build system by flow diagram.
+Xross State can model state machine and triger state transition on event.
    </description>
 
    <copyright>
@@ -55,6 +57,20 @@ limitations under the License.
 
    <plugin
          id="com.xross.tools.xdecision.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xross.tools.xstate"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xross.tools.xstate.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
