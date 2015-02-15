@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.xross.toolst.feature"
+      id="com.xross.tools.feature"
       label="Xross tools"
       version="1.0.0.qualifier"
       provider-name="he, jiehui">

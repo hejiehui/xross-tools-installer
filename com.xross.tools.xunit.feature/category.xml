@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.xross.toolst.feature_1.0.0.qualifier.jar" id="com.xross.toolst.feature" version="1.0.0.qualifier">
+   <feature url="features/com.xross.tools.feature_1.0.0.qualifier.jar" id="com.xross.tools.feature" version="1.0.0.qualifier">
       <category name="xross tools"/>
    </feature>
    <category-def name="xross tools" label="xross tools"/>
