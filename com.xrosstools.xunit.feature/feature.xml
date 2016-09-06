@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.xross.tools.feature"
-      label="Xross tools"
+      id="com.xrosstools.feature"
+      label="Xross Tools"
       version="1.0.0.qualifier"
       provider-name="he, jiehui">
 
    <description>
-      Include editor and runtime for Xross Decision Tree, Xross Unit and Xross State.
+      Include editor and runtime for:
 
-Xross Decision Tree can model complex logic by a decision tree diagram.
-Xross Unit can build system by flow diagram.
-Xross State can model state machine and triger state transition on event.
+Xrosstools Decision Tree
+Xrosstools Unit
+Xrosstools State.
+
+Xrosstools Decision Tree can model complex logic by a decision
+tree diagram.
+Xrosstools Unit can build system by flow diagram.
+Xrosstools State can model state machine and triger state transition
+on event.
    </description>
 
    <copyright>
@@ -35,42 +41,42 @@ limitations under the License.
    </license>
 
    <plugin
-         id="com.xross.tools.xunit.editor"
+         id="com.xrosstools.xdecision"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.xross.tools.xdecision.editor"
+         id="com.xrosstools.xdecision.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.xross.tools.xstate.editor"
+         id="com.xrosstools.xstate"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.xross.tools.xunit"
+         id="com.xrosstools.xstate.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.xross.tools.xdecision"
+         id="com.xrosstools.xunit"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.xross.tools.xstate"
+         id="com.xrosstools.xunit.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
