@@ -41,13 +41,6 @@ limitations under the License.
    </license>
 
    <plugin
-         id="com.xrosstools.xdecision"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.xrosstools.xdecision.editor"
          download-size="0"
          install-size="0"
@@ -55,14 +48,14 @@ limitations under the License.
          unpack="false"/>
 
    <plugin
-         id="com.xrosstools.xstate"
+         id="com.xrosstools.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.xrosstools.xstate.editor"
+         id="com.xrosstools.xdecision"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -77,6 +70,20 @@ limitations under the License.
 
    <plugin
          id="com.xrosstools.xunit.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xrosstools.xstate"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.xrosstools.xstate.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
