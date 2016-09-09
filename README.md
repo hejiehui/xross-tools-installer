@@ -14,7 +14,7 @@ xross-tools-installer
 ## 安装
 ![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_4.png)
 
-## 新建
+## 安装成功
 ![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
 
 
