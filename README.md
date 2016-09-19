@@ -7,23 +7,6 @@ xross-tools-installer将安装X-Series工具集。X-Series是一套轻量级的�
 * 易于测试。相关组件的接口经过精心设计，基本上都是函数式接口。组件之间的交互清晰，方便单元测试。部分工具可以直接生成单元测试代码
 * 最合适的。所有的功能都经过精心挑选，没有一丝多余的功能。尽可能做到专注和精简。
 
-# 安装步骤
-
-## 下载安装包
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_2.png)
-
-## 在Eclipse里面install
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_1.png)
-
-## 定位安装包
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_3.png)
-
-## 安装
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_4.png)
-
-## 安装成功
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
-
 ### xUnit
 Xross unit是一个灵活的系统构建器。
 
@@ -49,3 +32,20 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模
 
 [xstate](https://github.com/hejiehui/xState)
 ![1](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
+
+# 安装步骤
+
+## 下载安装包
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_2.png)
+
+## 在Eclipse里面install
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_1.png)
+
+## 定位安装包
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_3.png)
+
+## 安装
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_4.png)
+
+## 安装成功
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
