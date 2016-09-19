@@ -24,4 +24,28 @@ xross-tools-installer将安装X-Series工具集。X-Series是一套轻量级的�
 ## 安装成功
 ![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
 
+### xUnit
+Xross unit是一个灵活的系统构建器。
 
+在Eclipse里面所见即所得的方式通过构建流程图来构建系统
+
+运行时，其方式是通过对Context的处理来完成
+
+[xunit](https://github.com/hejiehui/xUnit)
+
+![1](https://github.com/hejiehui/xUnit/raw/master/doc/overview.png)
+
+### xDecision
+Xross Decision是商业智能领域常用的决策工具
+
+利用树形模型表达复杂的决策制定过程
+
+[xdecision](https://github.com/hejiehui/xDecision)
+
+![1](https://github.com/hejiehui/xDecision/blob/master/doc/overview.png)
+
+### xState
+Xross State是状态机编辑器。用于对状态的变迁与控制建模
+
+[xstate](https://github.com/hejiehui/xState)
+![1](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
