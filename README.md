@@ -21,7 +21,7 @@ Xross unit是一个灵活的系统构建器。
 
 [xunit](https://github.com/hejiehui/xUnit)
 
-![1](https://github.com/hejiehui/xUnit/raw/master/doc/overview.png)
+![xunit](https://github.com/hejiehui/xUnit/raw/master/doc/overview.png)
 
 ### xDecision
 Xross Decision是商业智能领域常用的决策工具
@@ -30,13 +30,19 @@ Xross Decision是商业智能领域常用的决策工具
 
 [xdecision](https://github.com/hejiehui/xDecision)
 
-![1](https://github.com/hejiehui/xDecision/blob/master/doc/overview.png)
+![xdecison](https://github.com/hejiehui/xDecision/blob/master/doc/overview.png)
 
 ### xState
 Xross State是状态机编辑器。用于对状态的变迁与控制建模
 
 [xstate](https://github.com/hejiehui/xState)
-![1](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
+![xstate](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
+
+### xeda
+基于actor模型的微服务框架。目前还在开发中
+
+预览
+![xeda](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/xeda.PNG)
 
 # 安装步骤
 
