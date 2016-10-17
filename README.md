@@ -62,4 +62,4 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模
 ![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
 
 # 技术支持
-[Tech Support](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/x-series-tech-support.png)
+![Tech Support](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/x-series-tech-support.png)
