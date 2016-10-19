@@ -47,6 +47,10 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模
 # 安装步骤
 
 ## 下载安装包
+[XrossTools.zip](https://github.com/hejiehui/xross-tools-installer/raw/master/installer/XrossTools.zip)
+
+或者
+
 ![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_2.png)
 
 ## 在Eclipse里面install
