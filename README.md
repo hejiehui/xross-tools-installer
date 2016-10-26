@@ -12,6 +12,12 @@ X-Series试图解决大规模软件开发难题，包括：
 * 文档。如何保障文档始终反应系统最新的状态
 * 学习曲线。新手如何快速理解系统
 
+### 更多说明
+[x-series中文.pptx](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pptx)
+
+[x-series中文.pdf](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pdf)
+
+
 ### xUnit
 Xross unit是一个灵活的系统构建器。
 
