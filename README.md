@@ -17,6 +17,8 @@ X-Series试图解决大规模软件开发难题，包括：
 
 [x-series中文.pdf](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pdf)
 
+[提高系统开发效率的“银弹”——X-series可视化大规模应用开发工具集 ](http://blog.csdn.net/ctrip_tech/article/details/53337622)
+
 
 ### xUnit
 Xross unit是一个灵活的系统构建器。
