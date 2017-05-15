@@ -13,9 +13,13 @@ X-Series试图解决大规模软件开发难题，包括：
 * 学习曲线。新手如何快速理解系统
 
 ### 更多说明
+[解锁进入千万级代码系统的正确姿势](https://v.qq.com/x/page/c0340vrpod1.html)
+
 [x-series中文.pptx](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pptx)
 
 [x-series中文.pdf](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pdf)
+
+[提高系统开发效率的“银弹”——X-series可视化大规模应用开发工具集 ](http://blog.csdn.net/ctrip_tech/article/details/53337622)
 
 
 ### xUnit
