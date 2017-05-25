@@ -21,6 +21,8 @@ X-Series 详细版介绍[x-series中文.pptx](https://github.com/hejiehui/xross-
 
 X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pdf)
 
+[X-Series企业级开发实践](https://my.oschina.net/hejiehui/blog/888635)
+
 [提高系统开发效率的“银弹”——X-series可视化大规模应用开发工具集 ](http://blog.csdn.net/ctrip_tech/article/details/53337622)
 
 
