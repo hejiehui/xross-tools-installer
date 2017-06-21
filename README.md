@@ -25,6 +25,7 @@ X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-t
 
 [提高系统开发效率的“银弹”——X-series可视化大规模应用开发工具集 ](http://blog.csdn.net/ctrip_tech/article/details/53337622)
 
+[Release Notes](https://github.com/hejiehui/xross-tools-installer/wiki/Release-Notes)
 
 ### xUnit
 Xross unit是一个灵活的系统构建器。
