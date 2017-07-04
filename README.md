@@ -82,5 +82,16 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模
 ## 安装成功
 ![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
 
+# 卸载步骤
+如果不想继续使用Xross Tools或者要升级Xross Tools，则需要进行卸载操作
+## 点击Help-->About Eclipse
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/uninstall_1.png)
+
+## 点击Installation Detail
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/uninstall_2.png)
+
+## Uninstall Xross Tools
+![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/uninstall_3.png)
+
 # 技术支持
 ![Tech Support](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/x-series-tech-support.png)
