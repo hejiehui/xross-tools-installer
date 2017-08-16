@@ -2,7 +2,7 @@
 <feature
       id="com.xrosstools.feature"
       label="Xross Tools"
-      version="1.1.5.qualifier"
+      version="1.1.6.qualifier"
       provider-name="he, jiehui">
 
    <description>
