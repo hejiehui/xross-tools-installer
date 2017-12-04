@@ -67,6 +67,14 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模
 
 # 安装步骤
 
+## 安装环境要求
+推荐Eclipse版本高于：
+Version: Kepler Service Release 2
+Build id: 20140224-0627
+
+JDK 1.7或以上
+
+
 ## 下载安装包
 [XrossTools.zip](https://github.com/hejiehui/xross-tools-installer/raw/master/installer/XrossTools.zip)
 
