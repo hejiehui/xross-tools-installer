@@ -26,7 +26,7 @@ X-Series 详细版介绍[x-series中文.pptx](https://github.com/hejiehui/xross-
 
 X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pdf)
 
-[X-Series企业级开发实践](https://my.oschina.net/hejiehui/blog/888635)
+[X-Series企业级开发实践](https://zhuanlan.zhihu.com/p/27289061)
 
 [用xstate实现金服业务流程动态化 ](http://mp.weixin.qq.com/s/neptecSgeceSHXwDSWQ3FQ)
 
