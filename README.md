@@ -36,11 +36,12 @@ X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-t
 [Release Notes](https://github.com/hejiehui/xross-tools-installer/wiki/Release-Notes)
 
 ### xUnit
-Xross unit是一个灵活的系统构建器。
+Xross unit可以用来：
 
-在Eclipse里面所见即所得的方式通过构建流程图来构建系统
+* 开发和具体服务无关的通用处理流程，比如接收到请求后的通用处理，例如，平台特定请求到领域模型的映射，用户身份认证，处理转发，统一输出处理等
+* 组织系统顶层服务。在处理转发下层，按照业务需求创建的多个具体业务处理。
 
-运行时，其方式是通过对Context的处理来完成
+具体模型即可用放在同一个文件；也可以分开放置，如果放在一起整体显得太大的话
 
 [xunit](https://github.com/hejiehui/xUnit)
 
