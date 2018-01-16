@@ -56,7 +56,12 @@ Xross Decision是商业智能领域常用的决策工具
 ![xdecison](https://github.com/hejiehui/xDecision/blob/master/doc/overview.png)
 
 ### xState
-Xross State是状态机编辑器。用于对状态的变迁与控制建模
+Xross State是状态机编辑器。用于对状态的变迁与控制建模。
+
+注意如果希望实现为工作流建模，请使用xstate，而不是xunit。因为：
+
+* xunit的图比较严格。扇出节点和扇入节点都是严格对应的。工作流一般比较随意，从任意节点可以连接任意的其他节点。
+* 工作流接收到一个请求后，会推动模型从当前状态/任务节点走到下个状态/任务节点。xunit是一个请求走完特定路径上的所有节点。两者用法差别很大用法
 
 [xstate](https://github.com/hejiehui/xState)
 ![xstate](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
