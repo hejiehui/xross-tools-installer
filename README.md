@@ -26,7 +26,9 @@ X-Series 详细版介绍[x-series中文.pptx](https://github.com/hejiehui/xross-
 
 X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-Series%20-%20%E4%B8%AD%E6%96%87.pdf)
 
-[X-Series企业级开发实践](https://my.oschina.net/hejiehui/blog/888635)
+[X-Series企业级开发实践](https://zhuanlan.zhihu.com/p/27289061)
+
+[用xstate实现金服业务流程动态化 ](http://mp.weixin.qq.com/s/neptecSgeceSHXwDSWQ3FQ)
 
 [提高系统开发效率的“银弹”——X-series可视化大规模应用开发工具集 ](http://blog.csdn.net/ctrip_tech/article/details/53337622)
 
@@ -34,11 +36,12 @@ X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-t
 [Release Notes](https://github.com/hejiehui/xross-tools-installer/wiki/Release-Notes)
 
 ### xUnit
-Xross unit是一个灵活的系统构建器。
+Xross unit可以用来：
 
-在Eclipse里面所见即所得的方式通过构建流程图来构建系统
+* 开发和具体服务无关的通用处理流程，比如接收到请求后的通用处理，例如，平台特定请求到领域模型的映射，用户身份认证，处理转发，统一输出处理等
+* 组织系统顶层服务。在处理转发下层，按照业务需求创建的多个具体业务处理。
 
-运行时，其方式是通过对Context的处理来完成
+具体模型即可用放在同一个文件；也可以分开放置，如果放在一起整体显得太大的话
 
 [xunit](https://github.com/hejiehui/xUnit)
 
@@ -47,14 +50,23 @@ Xross unit是一个灵活的系统构建器。
 ### xDecision
 Xross Decision是商业智能领域常用的决策工具
 
-利用树形模型表达复杂的决策制定过程
+利用树形模型表达复杂的决策制定过程。
+
+相对于传统的if/else的多层嵌套结构，xdecision可以用非常小的屏幕空间有效的描述复杂的逻辑判断，同时保持最优的可理解性
+
+在决策因子定义没有变化的情况下，通过修改决策树模型，可以很方便快捷的修改系统决策行为，无需做代码的任何改动。无论是开发还是维护都完胜代码方式
 
 [xdecision](https://github.com/hejiehui/xDecision)
 
 ![xdecison](https://github.com/hejiehui/xDecision/blob/master/doc/overview.png)
 
 ### xState
-Xross State是状态机编辑器。用于对状态的变迁与控制建模
+Xross State是状态机编辑器。用于对状态的变迁与控制建模。
+
+注意如果希望实现为工作流建模，请使用xstate，而不是xunit。因为：
+
+* xunit的图比较严格。扇出节点和扇入节点都是严格对应的。工作流一般比较随意，从任意节点可以连接任意的其他节点。
+* 工作流接收到一个请求后，会推动模型从当前状态/任务节点走到下个状态/任务节点。xunit是一个请求走完特定路径上的所有节点。两者用法差别很大用法
 
 [xstate](https://github.com/hejiehui/xState)
 ![xstate](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
@@ -66,6 +78,14 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模
 ![xeda](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/xeda.PNG)
 
 # 安装步骤
+
+## 安装环境要求
+推荐Eclipse版本高于：
+Version: Kepler Service Release 2
+Build id: 20140224-0627
+
+JDK 1.7或以上
+
 
 ## 下载安装包
 [XrossTools.zip](https://github.com/hejiehui/xross-tools-installer/raw/master/installer/XrossTools.zip)
