@@ -1,4 +1,5 @@
-xross-tools-installer
+由于中国地区无法显示Github上面的图片（地址被墙），本文的备份可以在下面的链接访问
+[xross-tools-installer](https://www.oschina.net/p/xross-tools-installer)
 
 # 简介
 xross-tools-installer将安装X-Series工具集。X-Series是一套轻量级的框架。包含好几个工具，各自解决不同场景的共性问题。每个工具都拥有基于Eclipse的图形化编辑器和基于标准maven依赖的运行时引擎。他们具有以下特点：
