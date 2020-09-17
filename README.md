@@ -1,6 +1,3 @@
-由于中国地区无法显示Github上面的图片（地址被墙），本文的备份可以在下面的链接访问
-[xross-tools-installer](https://www.oschina.net/p/xross-tools-installer)
-
 # 简介
 xross-tools-installer将安装X-Series工具集。X-Series是一套轻量级的框架。包含好几个工具，各自解决不同场景的共性问题。每个工具都拥有基于Eclipse的图形化编辑器和基于标准maven依赖的运行时引擎。他们具有以下特点：
 * 易于使用。基于图形化界面，操作直观，容易理解
@@ -46,7 +43,11 @@ Xross unit可以用来：
 
 [xunit](https://github.com/hejiehui/xUnit)
 
-![xunit](https://github.com/hejiehui/xUnit/raw/master/doc/overview.png)
+![xunit](https://static.oschina.net/uploads/img/201707/03184917_7GR5.png)
+
+Xross unit同时还支持IDEA版本
+
+![xunit](https://oscimg.oschina.net/oscnet/up-c3ae7017420fd4551452f03e911a6ef89ab.png)
 
 ### xDecision
 Xross Decision是商业智能领域常用的决策工具
@@ -59,7 +60,11 @@ Xross Decision是商业智能领域常用的决策工具
 
 [xdecision](https://github.com/hejiehui/xDecision)
 
-![xdecison](https://github.com/hejiehui/xDecision/blob/master/doc/overview.png)
+![xdecison](https://static.oschina.net/uploads/img/201707/03184929_NSfV.png)
+
+Xross Decision同时还支持IDEA版本
+
+![xdecison](https://oscimg.oschina.net/oscnet/up-ba0b9c8c0df9778cb4d02e6a6f12dafa6f2.png)
 
 ### xState
 Xross State是状态机编辑器。用于对状态的变迁与控制建模。
@@ -70,13 +75,13 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模。
 * 工作流接收到一个请求后，会推动模型从当前状态/任务节点走到下个状态/任务节点。xunit是一个请求走完特定路径上的所有节点。两者用法差别很大用法
 
 [xstate](https://github.com/hejiehui/xState)
-![xstate](https://github.com/hejiehui/xState/raw/master/doc/overview.png)
+![xstate](https://oscimg.oschina.net/oscnet/up-77a64e69d1d009af7b0731da86f5957c5c5.png)
 
 ### xeda
 基于actor模型的微服务框架。目前还在开发中
 
 预览
-![xeda](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/xeda.PNG)
+![xeda](https://static.oschina.net/uploads/img/201707/03184941_IoPy.png)
 
 # 安装步骤
 
@@ -93,20 +98,20 @@ JDK 1.7或以上
 
 或者
 
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_2.png)
+![1](https://static.oschina.net/uploads/img/201707/03184945_60V3.png)
 
 ## 在Eclipse里面install
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_1.png)
+![1](https://static.oschina.net/uploads/img/201707/03184948_UKWG.png)
 
 ## 定位安装包
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_3.png)
+![1](https://static.oschina.net/uploads/img/201707/03184952_pPmp.png)
 
 ## 安装
 记得选项要象下面一样，否则可能无法显示产品或者耗时很长去搜索其它update site
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_4.png)
+![1](https://static.oschina.net/uploads/img/201707/03184959_nfKe.png)
 
 ## 安装成功
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/install_5.png)
+![1](https://static.oschina.net/uploads/img/201707/03185001_kBML.png)
 
 # 卸载步骤
 如果不想继续使用Xross Tools或者要升级Xross Tools，则需要进行卸载操作
