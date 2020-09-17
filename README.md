@@ -116,13 +116,15 @@ JDK 1.7或以上
 # 卸载步骤
 如果不想继续使用Xross Tools或者要升级Xross Tools，则需要进行卸载操作
 ## 点击Help-->About Eclipse
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/uninstall_1.png)
+![1](https://oscimg.oschina.net/oscnet/up-e7cda455205da052928d5a1d76cfd922530.png)
 
 ## 点击Installation Detail
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/uninstall_2.png)
+![1](https://oscimg.oschina.net/oscnet/up-3f993a3a013fc85f15bbfea4cebf09bf9b7.png)
 
 ## Uninstall Xross Tools
-![1](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/uninstall_3.png)
+![1](https://oscimg.oschina.net/oscnet/up-8725f2fc65a9f257fc5b5d4769f9cae450a.png)
 
 # 技术支持
-![Tech Support](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/x-series-tech-support.png)
+QQ x-series支持群：146746429
+
+![Tech Support](https://static001.geekbang.org/infoq/0f/0f13df5473cd9dbb337df07910a8ce5d.png)
