@@ -2,7 +2,7 @@
 <feature
       id="com.xrosstools.feature"
       label="Xross Tools"
-      version="1.3.3.qualifier"
+      version="1.3.4.qualifier"
       provider-name="he, jiehui">
 
    <description>
@@ -20,12 +20,12 @@ on event.
    </description>
 
    <copyright>
-      Copyright 2020 He, Jiehe(Jerry He)
+      Copyright 2022 He, Jiehe(Jerry He)
 For improvement e-mail to he_jiehui@163.com
    </copyright>
 
    <license url="">
-      Copyright 2020 He, Jiehe(Jerry He)
+      Copyright 2022 He, Jiehe(Jerry He)
 
 Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
 you may not use this file except in compliance with the License.
@@ -39,6 +39,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
    </license>
+
+   <url>
+      <discovery label="Xross Series Github site" url="https://github.com/hejiehui"/>
+   </url>
 
    <plugin
          id="com.xrosstools.xdecision.editor"
