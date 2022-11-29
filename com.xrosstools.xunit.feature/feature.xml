@@ -2,21 +2,25 @@
 <feature
       id="com.xrosstools.feature"
       label="Xross Tools"
-      version="1.4.0.qualifier"
+      version="1.4.1.qualifier"
       provider-name="he, jiehui">
 
    <description>
-      Include editor and runtime for:
+      Visual editor for:
 Xrosstools Decision Tree
 Xrosstools Unit
 Xrosstools State.
-
-Xrosstools Decision Tree can model complex logic by a decision tree diagram.
+Xrosstools Decision Tree can model complex logic by a decision
+tree diagram.
 Xrosstools Unit can build system by flow diagram.
-Xrosstools State can model state machine and triger state transition on event.
+Xrosstools State can model state machine and triger state transition
+on event.
 
 Version Info:
-1.4.0 Optimize visual effect for state machine when connecting to same node
+1.4.1 Optimize visual effect for multiple links link to self
+
+1.4.0 Optimize visual effect for state machine when connecting
+to same node
    </description>
 
    <copyright>
