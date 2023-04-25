@@ -84,8 +84,22 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模。
 ![xeda](https://static.oschina.net/uploads/img/201707/03184941_IoPy.png)
 
 # 安装步骤
+## IDEA
+在Setting--Plugin里面搜索产品名称即可
 
-## 安装环境要求
+Xross Unit Editor
+Xross Decision Tree Edtitor
+Xross State Machine Edtitor
+
+如果无法从IDEA里面安装，可以访问如下网址下载：
+
+![Xross Unit Editor](https://plugins.jetbrains.com/plugin/21413-xross-unit-editor）
+![Xross Decision Tree Edtitor](https://plugins.jetbrains.com/plugin/21527-xross-decision-tree-edtitor）
+![Xross State Machine Edtitor](https://plugins.jetbrains.com/plugin/21557-xross-state-machine-edtitor）
+注：Xross State Machine Edtitor目前还在审核，可能无法访问
+
+## Eclipse
+安装环境要求
 推荐Eclipse版本高于：
 Version: Kepler Service Release 2
 Build id: 20140224-0627
