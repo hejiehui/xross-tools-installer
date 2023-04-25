@@ -75,6 +75,7 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模。
 * 工作流接收到一个请求后，会推动模型从当前状态/任务节点走到下个状态/任务节点。xunit是一个请求走完特定路径上的所有节点。两者用法差别很大用法
 
 [xstate](https://github.com/hejiehui/xState)
+
 ![xstate](https://oscimg.oschina.net/oscnet/up-77a64e69d1d009af7b0731da86f5957c5c5.png)
 
 ### xeda
@@ -88,7 +89,9 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模。
 在Setting--Plugin里面搜索产品名称即可
 
 Xross Unit Editor
+
 Xross Decision Tree Edtitor
+
 Xross State Machine Edtitor
 
 如果无法从IDEA里面安装，可以访问如下网址下载：
