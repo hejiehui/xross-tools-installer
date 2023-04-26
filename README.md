@@ -78,6 +78,10 @@ Xross State是状态机编辑器。用于对状态的变迁与控制建模。
 
 ![xstate](https://oscimg.oschina.net/oscnet/up-77a64e69d1d009af7b0731da86f5957c5c5.png)
 
+Xross State同时还支持IDEA版本
+
+![xstate](https://oscimg.oschina.net/oscnet/up-5414ffb4dd9461984b5fca4c13154ddccc8.png)
+
 ### xeda
 基于actor模型的微服务框架。目前还在开发中
 
