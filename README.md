@@ -106,8 +106,6 @@ Xross State Machine Edtitor
 
 [Xross State Machine Edtitor](https://plugins.jetbrains.com/plugin/21557-xross-state-machine-edtitor)
 
-注：Xross State Machine Edtitor目前还在审核，可能无法访问
-
 ## Eclipse
 安装环境要求
 推荐Eclipse版本高于：
