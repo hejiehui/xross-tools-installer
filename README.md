@@ -150,3 +150,7 @@ JDK 1.7或以上
 QQ x-series支持群：146746429
 
 ![Tech Support](https://static001.geekbang.org/infoq/0f/0f13df5473cd9dbb337df07910a8ce5d.png)
+
+# 联系方式
+微信：hejiehui76
+e-mail: he_jiehui@163.com
