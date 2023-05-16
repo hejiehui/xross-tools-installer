@@ -153,4 +153,8 @@ QQ x-series支持群：146746429
 
 # 联系方式
 微信：hejiehui76
-e-mail: he_jiehui@163.com
+
+e-mail 1: he_jiehui@163.com
+
+e-mail 2: he_jiehui@163.com
+
