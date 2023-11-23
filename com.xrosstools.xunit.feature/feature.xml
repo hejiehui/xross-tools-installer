@@ -2,7 +2,7 @@
 <feature
       id="com.xrosstools.feature"
       label="Xross Tools"
-      version="1.4.1.qualifier"
+      version="1.5.1.qualifier"
       provider-name="he, jiehui">
 
    <description>
@@ -15,10 +15,9 @@ tree diagram.
 Xrosstools Unit can build system by flow diagram.
 Xrosstools State can model state machine and triger state transition
 on event.
-
 Version Info:
+1.5.1 support child state machine, transition guard and delete event/node/transition/machine from outline
 1.4.1 Optimize visual effect for multiple links link to self
-
 1.4.0 Optimize visual effect for state machine when connecting
 to same node
    </description>
