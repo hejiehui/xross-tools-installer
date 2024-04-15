@@ -16,7 +16,17 @@ X-Series能够达到的效果：
 * 保障软件质量。把高内聚，低耦合落到实处
 
 ### 更多说明
-[解锁进入千万级代码系统的正确姿势](https://v.qq.com/x/page/c0340vrpod1.html)
+[B站视频：低代码框架x-series介绍及应用案例](https://www.bilibili.com/video/BV1R64y127QZ/)
+[腾讯视频：解锁进入千万级代码系统的正确姿势](https://v.qq.com/x/page/c0340vrpod1.html)
+
+[知乎个人主页](https://www.zhihu.com/people/hejiehui-73/posts)
+[掘金个人主页](https://juejin.cn/user/1163731741704600/posts)
+
+ArchSummit分享：[低代码框架x-series介绍与实践.pptx](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%A1%86%E6%9E%B6x-series%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%AE%9E%E8%B7%B5-ArchSummit.pptx)
+K+峰会分享：[软件研发困境与x-series落地实践.pptx](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91%E5%9B%B0%E5%A2%83%E4%B8%8Ex-series%E8%90%BD%E5%9C%B0%E5%AE%9E%E8%B7%B5-K%2B%E5%B3%B0%E4%BC%9A.pptx)
+[单元测试落地指北.pptx](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E8%90%BD%E5%9C%B0%E6%8C%87%E5%8C%97.pptx)
+
+[后端低代码工具X-Series线下培训介绍](https://juejin.cn/post/7350971151131344959)
 
 X-Series 精简版介绍[X-Series V2.pptx](https://github.com/hejiehui/xross-tools-installer/blob/master/doc/X-series%20V2.pptx)
 
