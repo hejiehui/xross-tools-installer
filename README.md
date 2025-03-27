@@ -1,3 +1,8 @@
+# 技术支持
+QQ x-series支持群：146746429
+
+![Tech Support](https://static001.geekbang.org/infoq/0f/0f13df5473cd9dbb337df07910a8ce5d.png)
+
 # 简介
 xross-tools-installer将安装X-Series工具集。X-Series是一套轻量级的框架。包含好几个工具，各自解决不同场景的共性问题。每个工具都拥有基于Eclipse的图形化编辑器和基于标准maven依赖的运行时引擎。他们具有以下特点：
 * 易于使用。基于图形化界面，操作直观，容易理解
@@ -161,11 +166,6 @@ JDK 1.7或以上
 
 ## Uninstall Xross Tools
 ![1](https://oscimg.oschina.net/oscnet/up-8725f2fc65a9f257fc5b5d4769f9cae450a.png)
-
-# 技术支持
-QQ x-series支持群：146746429
-
-![Tech Support](https://static001.geekbang.org/infoq/0f/0f13df5473cd9dbb337df07910a8ce5d.png)
 
 # 联系方式
 微信：hejiehui76
