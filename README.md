@@ -25,6 +25,8 @@ X-Series能够达到的效果：
 
 [腾讯视频：解锁进入千万级代码系统的正确姿势](https://v.qq.com/x/page/c0340vrpod1.html)
 
+[B站合集·面向后端低代码工具集X-Series](https://space.bilibili.com/472310927/lists/3326246?type=season)
+
 [知乎个人主页](https://www.zhihu.com/people/hejiehui-73/posts)
 
 [掘金个人主页](https://juejin.cn/user/1163731741704600/posts)
