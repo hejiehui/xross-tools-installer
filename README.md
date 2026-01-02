@@ -5,7 +5,7 @@ QQ x-series支持群：146746429
 
 # 简介
 X-Series是一套基于可视化模型的轻量级的后端开发框架。支持基于IDEA和Eclipse的可视化编辑器和基于AI的模型生成扩展。特点包括：
-* 功能齐全。支持流程图[Xross Unit](https://github.com/hejiehui/xUnit)，决策树[Xross Decision](https://github.com/hejiehui/xDecision)，状态机[Xross State](https://github.com/hejiehui/xState)，行为树[Xross Behavior](https://github.com/hejiehui/xBehavior)，工作流[Xross Flow](https://github.com/hejiehui/xFlow)
+* 功能齐全。支持流程图[Xross Unit](https://github.com/hejiehui/xUnit)，决策树[Xross Decision](https://github.com/hejiehui/xDecision)，状态机[Xross State](https://github.com/hejiehui/xState)，行为树[Xross Behavior](https://github.com/hejiehui/xBehavior)，工作流[Xross Flow](https://github.com/hejiehui/xFlow)，扩展包[Xross Tool Extension](https://plugins.jetbrains.com/plugin/28413-xross-tools-extension)
 * 直观易懂。可视化模型容易理解，交流，操作直观
 * 安装简便。可直接从IDEA插件市场下载安装。引擎通过maven导入
 * 易于开发。引擎负责调度，研发只需实现最简单的功能接口，从设计上保障高内聚，低耦合。支持工厂类代码生成
@@ -142,6 +142,8 @@ Xross Extension是付费的插件。用于对其他编辑器进行功能增强�
 [Xross Behavior Tree Editor](https://plugins.jetbrains.com/plugin/25520-xross-behavior-tree-edtitor)
 
 [Xross Workflow Editor](https://plugins.jetbrains.com/plugin/28043-xross-workflow-editor)
+
+[Xross Tool Extension](https://plugins.jetbrains.com/plugin/28413-xross-tools-extension)
 
 ## Eclipse
 注意，Eclipse版本现在处于维护阶段，目前xUnit，xState和xDecision支持Eclipse，其他暂不支持。有需要请微信，QQ或邮件联系我
