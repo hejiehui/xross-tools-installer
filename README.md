@@ -4,15 +4,17 @@ QQ x-series支持群：146746429
 ![Tech Support](https://static001.geekbang.org/infoq/0f/0f13df5473cd9dbb337df07910a8ce5d.png)
 
 # 简介
-xross-tools-installer将安装X-Series工具集。X-Series是一套轻量级的框架。包含好几个工具，各自解决不同场景的共性问题。每个工具都拥有基于Eclipse的图形化编辑器和基于标准maven依赖的运行时引擎。他们具有以下特点：
-* 易于使用。基于图形化界面，操作直观，容易理解
-* 易于集成。基于maven依赖，可以直接引入到项目
-* 易于测试。相关组件的接口经过精心设计，基本上都是函数式接口。组件之间的交互清晰，方便单元测试。部分工具可以直接生成单元测试代码
-* 最合适的。所有的功能都经过精心挑选，没有一丝多余的功能。尽可能做到专注和精简。
+X-Series是一套基于可视化模型的轻量级的后端开发框架。支持基于IDEA和Eclipse的可视化编辑器和基于AI的模型生成扩展。特点包括：
+* 功能齐全。支持流程图[Xross Unit](https://github.com/hejiehui/xUnit)，决策树[Xross Decision](https://github.com/hejiehui/xDecision)，状态机[Xross State](https://github.com/hejiehui/xState)，行为树[Xross Behavior](https://github.com/hejiehui/xBehavior)，工作流[Xross Flow](https://github.com/hejiehui/xFlow)
+* 直观易懂。可视化模型容易理解，交流，操作直观
+* 安装简便。可直接从IDEA插件市场下载安装。引擎通过maven导入
+* 易于开发。引擎负责调度，研发只需实现最简单的功能接口，从设计上保障高内聚，低耦合。支持工厂类代码生成
+* 易于测试。大部分工具可生成单元测试代码框架，仅需简单填空
+* 功能精简。所有的功能都经过精心挑选，没有一丝多余的功能。尽可能做到专注和精简。
 
 X-Series试图解决大规模软件开发难题，包括：
 * 沟通。如何准确有效的描述系统的静态和动态
-* 文档。如何保障文档始终反应系统最新的状态
+* 文档。如何保障文档始终反映系统最新的状态
 * 学习曲线。新手如何快速理解系统
 
 X-Series能够达到的效果：
@@ -21,6 +23,8 @@ X-Series能够达到的效果：
 * 保障软件质量。把高内聚，低耦合落到实处
 
 ### 更多说明
+小红书号：42941729994
+
 [B站视频：低代码框架x-series介绍及应用案例](https://www.bilibili.com/video/BV1R64y127QZ/)
 
 [腾讯视频：解锁进入千万级代码系统的正确姿势](https://v.qq.com/x/page/c0340vrpod1.html)
@@ -53,27 +57,27 @@ X-Series 详细版介绍[x-series中文.pdf](https://github.com/hejiehui/xross-t
 
 [提高系统开发效率的“银弹”——X-series可视化大规模应用开发工具集 ](http://blog.csdn.net/ctrip_tech/article/details/53337622)
 
-### 发布历史
-[Release Notes](https://github.com/hejiehui/xross-tools-installer/wiki/Release-Notes)
+### Xross Unit
+Xross Unit是流程图编辑器。简称xUnit。可以用来：
 
-### xUnit
-Xross unit可以用来：
+* 构建包含多个步骤的后端服务处理流程，例如接收到Facade层请求后，将通用格式转换为业务对象，然后进行具体的操作并输出
+* 构建系统顶层通用处理流程，再利用模型的跨文件引用功能，将请求定位并转发到具体服务流程
 
-* 开发和具体服务无关的通用处理流程，比如接收到请求后的通用处理，例如，平台特定请求到领域模型的映射，用户身份认证，处理转发，统一输出处理等
-* 组织系统顶层服务。在处理转发下层，按照业务需求创建的多个具体业务处理。
+如果希望使用工作流建模，请使用下面的xflow，而不是xunit。因为：
 
-具体模型即可用放在同一个文件；也可以分开放置，如果放在一起整体显得太大的话
+* 工作流在执行过程中可能会停留在需要等待或输入的节点，而流程图是接收请求后一次走完执行路径上的所有节点，不会暂停
+* 流程图扇出节点和扇入节点都是严格对应，而工作流节点连接限制不严格，两者从拓扑角度来说是不一样的图形
 
-[xunit](https://github.com/hejiehui/xUnit)
+[xUnit](https://github.com/hejiehui/xUnit)
 
-![xunit](https://static.oschina.net/uploads/img/201707/03184917_7GR5.png)
+![xUnit](https://static.oschina.net/uploads/img/201707/03184917_7GR5.png)
 
 Xross unit同时还支持IDEA版本
 
 ![xunit](https://oscimg.oschina.net/oscnet/up-c3ae7017420fd4551452f03e911a6ef89ab.png)
 
-### xDecision
-Xross Decision是商业智能领域常用的决策工具
+### Xross Decision
+Xross Decision是商业智能领域常用的决策工具。简称xDecision
 
 利用树形模型表达复杂的决策制定过程。
 
@@ -81,47 +85,53 @@ Xross Decision是商业智能领域常用的决策工具
 
 在决策因子定义没有变化的情况下，通过修改决策树模型，可以很方便快捷的修改系统决策行为，无需做代码的任何改动。无论是开发还是维护都完胜代码方式
 
-[xdecision](https://github.com/hejiehui/xDecision)
+[xDecision](https://github.com/hejiehui/xDecision)
 
-![xdecison](https://static.oschina.net/uploads/img/201707/03184929_NSfV.png)
+![xDecison](https://static.oschina.net/uploads/img/201707/03184929_NSfV.png)
 
 Xross Decision同时还支持IDEA版本
 
 ![xdecison](https://oscimg.oschina.net/oscnet/up-ba0b9c8c0df9778cb4d02e6a6f12dafa6f2.png)
 
-### xState
-Xross State是状态机编辑器。用于对状态的变迁与控制建模。
+### Xross State
+Xross State是状态机编辑器。简称xState
 
-注意如果希望实现为工作流建模，请使用xstate，而不是xunit。因为：
+[xState](https://github.com/hejiehui/xState)
 
-* xunit的图比较严格。扇出节点和扇入节点都是严格对应的。工作流一般比较随意，从任意节点可以连接任意的其他节点。
-* 工作流接收到一个请求后，会推动模型从当前状态/任务节点走到下个状态/任务节点。xunit是一个请求走完特定路径上的所有节点。两者用法差别很大用法
-
-[xstate](https://github.com/hejiehui/xState)
-
-![xstate](https://oscimg.oschina.net/oscnet/up-77a64e69d1d009af7b0731da86f5957c5c5.png)
+![xState](https://oscimg.oschina.net/oscnet/up-77a64e69d1d009af7b0731da86f5957c5c5.png)
 
 Xross State同时还支持IDEA版本
 
 ![xstate](https://oscimg.oschina.net/oscnet/up-5414ffb4dd9461984b5fca4c13154ddccc8.png)
 
-### xeda
-基于actor模型的微服务框架。目前还在开发中
+### Xross Behavior
+Xross Behavior是行为树编辑器，简称xBehavior
 
-预览
-![xeda](https://static.oschina.net/uploads/img/201707/03184941_IoPy.png)
+[xBehavior](https://github.com/hejiehui/xBehavior)
+
+![xBehavior](https://github.com/user-attachments/assets/ab3a8346-7335-469d-89c0-dc2e4f79c142)
+
+Xross Behavior目前不支持Eclipse编辑器
+
+### Xross Flow
+Xross Flow是工作流编辑器。简称xFlow
+
+[xFlow](https://github.com/hejiehui/xFlow)
+
+![xFlow](https://github.com/user-attachments/assets/ab3686c2-00fd-417c-a8b5-d4621b486d0e)
+
+### Xross Extension
+Xross Extension是付费的插件。用于对其他编辑器进行功能增强，例如基于AI的模型生成与修改等
+
+[xExtension](https://github.com/hejiehui/xExtension)
+
+[xExtension视频演示](https://www.bilibili.com/video/BV1kt1WBnEr7/)
 
 # 安装步骤
 ## IDEA
-在Setting--Plugin里面搜索产品名称即可
+在Setting--Plugin里面搜索产品名称即可。比如输入Xross，在自动显示的相关产品选择要安装的
 
-Xross Unit Editor
-
-Xross Decision Tree Edtitor
-
-Xross State Machine Edtitor
-
-如果无法从IDEA里面安装，可以访问如下网址下载：
+或直接访问插件页面下载：
 
 [Xross Unit Editor](https://plugins.jetbrains.com/plugin/21413-xross-unit-editor)
 
@@ -129,7 +139,13 @@ Xross State Machine Edtitor
 
 [Xross State Machine Edtitor](https://plugins.jetbrains.com/plugin/21557-xross-state-machine-edtitor)
 
+[Xross Behavior Tree Editor](https://plugins.jetbrains.com/plugin/25520-xross-behavior-tree-edtitor)
+
+[Xross Workflow Editor](https://plugins.jetbrains.com/plugin/28043-xross-workflow-editor)
+
 ## Eclipse
+注意，Eclipse版本现在处于维护阶段，目前xUnit，xState和xDecision支持Eclipse，其他暂不支持。有需要请微信，QQ或邮件联系我
+
 安装环境要求
 推荐Eclipse版本高于：
 Version: Kepler Service Release 2
